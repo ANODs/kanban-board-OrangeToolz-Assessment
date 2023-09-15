@@ -6,15 +6,15 @@ const Footer = () => {
   return (
     <footer className={classes.footerContent}>
       <div>
-        <h3>© {date.getFullYear()} Kanban Board. All Rights Reserved.</h3>
+        <h3>© {date.getFullYear()} All Rights Reserved.</h3>
         <p>
           Developed by:{" "}
           <a
-            href="https://github.com/TouhidZaman"
+            href="https://github.com/ANODs"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Muhammad Touhiduzzaman
+            Timoshkin Timofey
           </a>
         </p>
       </div>

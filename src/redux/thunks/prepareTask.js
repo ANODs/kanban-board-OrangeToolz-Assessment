@@ -14,11 +14,11 @@ const prepareTask = (taskTitle) => {
       const newTask = {
         id: Date.now(),
         title: taskTitle,
-        status: "todo",
+        status: "Сделать",
       };
       dispatch(addToTaskList(newTask));
     } else {
-      toast.error("Task Already exist", { id: "exist" });
+      toast.error("Такое задание уже есть.", { id: "exist" });
     }
   };
 };

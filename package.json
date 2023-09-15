@@ -1,9 +1,9 @@
 {
-  "name": "kanban-board",
+  "name": "task-manager",
   "author": {
-    "name": "Muhammad Touhiduzzaman",
-    "email": "touhid4bd@gmail.com",
-    "url": "https://github.com/TouhidZaman"
+    "name": "Timoshkin timofey",
+    "email": "timoshkin.timofey@gmail.com",
+    "url": "https://github.com/ANODs"
   },
   "version": "0.1.0",
   "private": true,

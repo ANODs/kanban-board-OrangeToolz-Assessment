@@ -7,7 +7,7 @@ import {
 } from "../actionTypes";
 
 const initialState = {
-  taskStatus: ["todo", "in-progress", "done"],
+  taskStatus: ["Сделать", "в процессе", "Готово"],
   isDragging: false,
   tasksList: getItemsByKey("tasksList"),
   //Example Task List Items

@@ -27,7 +27,7 @@ const TaskCard = forwardRef(({ task, index }, ref) => {
       onDragStart={handleDragStart}
       onDragEnd={() => dispatch(setDraggingStatus(false))}
     >
-      <span onClick={() => dispatch(removeFromTaskList(task.id))}>X</span>
+      <span onClick={() => dispatch(removeFromTaskList(task.id))}>☒</span>
       {task.title}
     </div>
   );

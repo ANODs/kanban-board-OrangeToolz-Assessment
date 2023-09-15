@@ -1,9 +1,15 @@
 .footerContent {
-    margin-top: 50px;
+    margin-top: 30px;
     height: 100px;
     text-align: center;
-    background-color: bisque;
+    color: #fff;
+    background-color: rgb(51, 51, 51);
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+a {
+    color: #fff;
 }

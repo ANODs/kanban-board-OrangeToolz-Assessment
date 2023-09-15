@@ -16,7 +16,7 @@ const KanbanBoard = () => {
       dispatch(prepareTask(taskTitle));
       setTaskTitle("");
     } else {
-      toast.error("Please input task name first", { id: "name" });
+      toast.error("Введите описание.", { id: "name" });
     }
   };
 
@@ -34,9 +34,9 @@ const KanbanBoard = () => {
           value={taskTitle}
           onChange={(e) => setTaskTitle(e.target.value)}
           onKeyDown={(e) => handleEnterKeyDown(e.key)}
-          placeholder="Write your task..."
+          placeholder="Опишите задание..."
         />
-        <button onClick={handleTaskAdd}>Add</button>
+        <button onClick={handleTaskAdd}>Добавить</button>
       </div>
       <div className={classes.containers}>
         {taskStatus.map((status) => (

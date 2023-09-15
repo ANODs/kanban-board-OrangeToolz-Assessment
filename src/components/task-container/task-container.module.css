@@ -1,19 +1,21 @@
 .taskContainer {
-    height: 67vh;
+    height: 72vh;
+    border-radius: 10px;
     border: 1px solid black;
     overflow: hidden;
+    background-color: rgb(51, 51, 51);
+    transition: .2s;
 }
 .dragging {
-    border: 2px dotted black;
-    background:lightgray;
+    background:rgb(82, 82, 82);
 }
 
 .taskContainer > .status {
     margin: 0;
     padding: 10px;
     height: 30px;
-    background-color:#FF6347;
-    color: black;
+    background-color:#5d69d6;
+    color: rgb(255, 255, 255);
     font-weight: 700;
     text-align: center;
     text-transform: capitalize;

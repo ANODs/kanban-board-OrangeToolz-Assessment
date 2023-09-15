@@ -12,12 +12,12 @@ const verifyTaskStatusUpdate = (taskUpdateData) => {
     //preventing invalid action dispatch
     if (
       currentStatus === taskUpdateData.status ||
-      taskUpdateData.status === "done" ||
-      currentStatus === "todo"
+      taskUpdateData.status === "Готово" ||
+      currentStatus === "Сделать"
     ) {
       dispatch(updateTaskStatus(taskUpdateData));
     } else {
-      toast.error("This operation is not allowed", { id: "not-allowed" });
+      toast.error("Эта операция недоступна.", { id: "not-allowed" });
     }
   };
 };
